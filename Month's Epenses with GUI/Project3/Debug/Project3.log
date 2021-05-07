@@ -1,0 +1,45 @@
+﻿Build started 6/8/2018 5:04:35 PM.
+     1>Project "E:\Downloads\Compressed\Months-Expenses-master\Months-Expenses-master\Month's Epenses with GUI\Project3\Project3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"E:\Downloads\Compressed\Months-Expenses-master\Months-Expenses-master\Month's Epenses with GUI\Debug\CircularProgressBar.dll" /FU"E:\Downloads\Compressed\Months-Expenses-master\Months-Expenses-master\Month's Epenses with GUI\Debug\DevComponents.DotNetBar2.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.Composition.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xaml.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /FU"C:\Program Files (x86)\Telerik\UI for WinForms Q1 2015\Bin40\Telerik.WinControls.dll" /FU"C:\Program Files (x86)\Telerik\UI for WinForms Q1 2015\Bin40\Telerik.WinControls.RichTextEditor.dll" /FU"C:\Program Files (x86)\Telerik\UI for WinForms Q1 2015\Bin40\Telerik.WinControls.UI.dll" /FU"C:\Program Files (x86)\Telerik\UI for WinForms Q1 2015\Bin40\TelerikCommon.dll" /analyze- /errorReport:prompt /clr:nostdlib item.cpp MyForm.cpp
+         item.cpp
+     1>c:\program files (x86)\telerik\ui for winforms q1 2015\bin40\telerik.wincontrols.richtexteditor.dll : warning C4945: 'ICommand' : cannot import symbol from 'c:\program files (x86)\telerik\ui for winforms q1 2015\bin40\telerik.wincontrols.richtexteditor.dll': as 'System::Windows::Input::ICommand' has already been imported from another assembly 'System'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.dll : see declaration of 'System::Windows::Input::ICommand'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Windows.Input.ICommand' from assembly 'Telerik.WinControls.RichTextEditor, Version=2015.1.225.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e'.
+     1>item.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>item.cpp(344): warning C4018: '<' : signed/unsigned mismatch
+     1>item.cpp(348): warning C4018: '<' : signed/unsigned mismatch
+     1>item.cpp(373): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>item.cpp(374): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         MyForm.cpp
+     1>c:\program files (x86)\telerik\ui for winforms q1 2015\bin40\telerik.wincontrols.richtexteditor.dll : warning C4945: 'ICommand' : cannot import symbol from 'c:\program files (x86)\telerik\ui for winforms q1 2015\bin40\telerik.wincontrols.richtexteditor.dll': as 'System::Windows::Input::ICommand' has already been imported from another assembly 'System'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.dll : see declaration of 'System::Windows::Input::ICommand'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Windows.Input.ICommand' from assembly 'Telerik.WinControls.RichTextEditor, Version=2015.1.225.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e'.
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1251): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1252): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1327): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1331): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1344): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1422): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1423): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1591): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1592): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1690): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1691): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1741): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\downloads\compressed\months-expenses-master\months-expenses-master\month's epenses with gui\project3\MyForm.h(1742): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Abanoub\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Downloads\Compressed\Months-Expenses-master\Months-Expenses-master\Month's Epenses with GUI\Debug\Project3.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Project3.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Downloads\Compressed\Months-Expenses-master\Months-Expenses-master\Month's Epenses with GUI\Debug\Project3.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\item.obj
+         Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Project3.vcxproj -> E:\Downloads\Compressed\Months-Expenses-master\Months-Expenses-master\Month's Epenses with GUI\Debug\Project3.exe
+     1>Done Building Project "E:\Downloads\Compressed\Months-Expenses-master\Months-Expenses-master\Month's Epenses with GUI\Project3\Project3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.78

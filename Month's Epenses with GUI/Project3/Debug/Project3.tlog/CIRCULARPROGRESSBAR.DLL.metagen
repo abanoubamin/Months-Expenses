@@ -1,0 +1,65 @@
+  ProgressBar.CircularProgressBar.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CircularProgressBar, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ProgressBar.CircularProgressBar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 StartAngle 'get set' : 
+    Int32 ProgressAngle 'get set' : 
+    ProgressBar.RadiusCalculation RadiusCalculation 'get set' : 
+    Int32 ProgressRadius 'get set' : 
+    Int32 PathRadius 'get set' : 
+    System.Drawing.Color PathColor 'get set' : 
+    System.Drawing.Color ProgressColor 'get set' : 
+    Int32 ProgressAlpha 'get set' : 
+    Int32 PathAlpha 'get set' : 
+    Single ProgressInDegree 'get set' : 
+    Int32 PathWidth 'get set' : 
+    Int32 ProgressWidth 'get set' : 
+  Methods:
+    get_StartAngle(): PrivateScope, Public, HideBySig, SpecialName
+    set_StartAngle(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ProgressAngle(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProgressAngle(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_RadiusCalculation(): PrivateScope, Public, HideBySig, SpecialName
+    set_RadiusCalculation(RadiusCalculation): PrivateScope, Public, HideBySig, SpecialName
+    get_ProgressRadius(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProgressRadius(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_PathRadius(): PrivateScope, Public, HideBySig, SpecialName
+    set_PathRadius(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_PathColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_PathColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ProgressColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProgressColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ProgressAlpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProgressAlpha(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_PathAlpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_PathAlpha(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ProgressInDegree(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProgressInDegree(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_PathWidth(): PrivateScope, Public, HideBySig, SpecialName
+    set_PathWidth(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ProgressWidth(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProgressWidth(Int32): PrivateScope, Public, HideBySig, SpecialName
+Struct ProgressBar.ProgressType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ProgressBar.ProgressType ProgressTypeRadiai = 0 : Public, Static, Literal, HasDefault
+    ProgressBar.ProgressType ProgressTypeCircular = 1 : Public, Static, Literal, HasDefault
+Struct ProgressBar.RadiusCalculation: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ProgressBar.RadiusCalculation Auto = 0 : Public, Static, Literal, HasDefault
+    ProgressBar.RadiusCalculation Manual = 1 : Public, Static, Literal, HasDefault
